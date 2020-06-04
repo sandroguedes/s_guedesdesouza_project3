@@ -27,54 +27,123 @@ flex-direction:row;
 {
 background-color:#B5B5B5;
 flex-grow:1;
-padding:10px;
+padding:20px;
+}
+
+#logo
+{
+background-color:black;
+width:200px;
+height:200px;
+margin-top:20px;
+margin-bottom:60px;
+}
+
+#navitens
+{
+font-family:sans-serif;
+font-size:30px;
+color:white;
+margin-bottom:40px;
+}
+
+#navitens a
+{
+color:white;
+line-height:50px;
+text-decoration:none;
+}
+
+#navsocialmedia
+{
+display:flex;
+flex-direction:row;
+}
+
+#navsocialmedia div
+{
+height:50px;
+width:50px;
+background-color:black;
+margin-right:15px;
 }
 
 #contentbox
 {
 display:flex;
 flex-direction:column;
-flex-grow:12;
+flex-grow:14;
 }
 
 #hero
 {
+display:flex;
+flex-direction:column;
+justify-content:center;
 min-height:100vh;
 background-color:#929292;
 padding:10px;
 }
 
+#herotitle
+{
+text-align:center;
+height:100px;
+width:100%;
+}
+
+#herotitle h1
+{
+font-family:sans-serif;
+font-size:50px;
+font-weight:600;
+color:white;
+}
+
+.sectioncontent
+{
+width:100%;
+min-height:250px;
+border: 1px solid red;
+padding: 10px;
+}
+
 #ad_gallery
 {
+display:flex;
 min-height:300px;
 background-color:#444444;
-padding:10px;
+padding:30px;
 }
 
 #ad_order
 {
+display:flex;
 min-height:300px;
 background-color:#929292;
-padding:10px;
+padding:30px;
 }
 
 #ad_findus
 {
+display:flex;
 min-height:300px;
 background-color:#444444;
-padding:10px;
+padding:30px;
 }
 
 #ad_map
 {
+display:flex;
 min-height:300px;
 background-color:#929292;
-padding:10px;
+padding:30px;
 }
 
 #footer
 {
+display:flex;
 min-height:100px;
 background-color:#252525;
-padding:10px;
+padding:30px;
 }
